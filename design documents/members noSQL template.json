@@ -1,0 +1,32 @@
+{
+    "members": [
+      {
+        "memberID": 0,
+        "first": "Chad",
+        "last": "Test",
+        "phone": "4204206969",
+        "email": "chad@test.com",
+        "current_slots":3,
+        "prefs": "{\"days\":[\"MONDAY\"],\"tasks\":[\"SETUP\", \"CLEANUP\"]}",
+        "exclusions": "{\"days\":[\"WEDNESDAY\"],\"tasks\":[\"BANANA\", \"INVENTORY\"]}",
+        "slots": [
+          {
+            "taskID": 1,
+            "name": "Cleanup",
+            "date": "2020-06-15",
+            "description": "lorum ipsum dolor sit amet",
+            "previous": []
+          },
+    
+          {
+            "taskID": 2,
+            "name": "2nd Banana",
+            "date": "2020-06-18",
+            "description": "lorum ipsum dolor sit amet",
+            "previous": []
+          }
+    
+        ]
+      }
+    ]
+    }
