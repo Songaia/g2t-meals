@@ -1,3 +1,4 @@
 [submodule "g2t-meals-android"]
 	path = g2t-meals-android
 	url = https://github.com/IanBans/g2t-meals-android.git
+	branch = main
