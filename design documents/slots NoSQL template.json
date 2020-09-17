@@ -2,18 +2,24 @@
     "slots": [
     {
       "slotID": 1,
-      "day": "M",
+      "day": "MONDAY",
       "date": "2020-06-15",
-      "task": {
-        "taskID": 1,
-        "name": "2nd Cleanup"
-      },
+      "task": "CLEANUP",
       "assignee": {
         "memberID": 0,
         "first": "Chad",
         "last": "Test",
         "phone": "4204206969",
-        "email": "chad@test.com"
+        "email": "chad@test.com",
+        "currentSlots": 1,
+        "prefs": {
+          "days":[],
+          "tasks":[]
+        },
+        "exclusions": {
+          "days":[],
+          "tasks":[]
+        }
       }
     }
   ]

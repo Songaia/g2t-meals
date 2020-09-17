@@ -7,22 +7,22 @@
         "phone": "4204206969",
         "email": "chad@test.com",
         "current_slots":3,
-        "prefs": "{\"days\":[\"MONDAY\"],\"tasks\":[\"SETUP\", \"CLEANUP\"]}",
-        "exclusions": "{\"days\":[\"WEDNESDAY\"],\"tasks\":[\"BANANA\", \"INVENTORY\"]}",
+        "prefs": {"days":["MONDAY"],"tasks":["SETUP", "CLEANUP"]},
+        "exclusions": {"days":["WEDNESDAY"],"tasks":["BANANA", "INVENTORY"]},
         "slots": [
           {
-            "taskID": 1,
-            "name": "Cleanup",
+            "slotID": 1,
+            "day": "MONDAY",
             "date": "2020-06-15",
-            "description": "lorum ipsum dolor sit amet",
+            "task": "CLEANUP",
             "previous": []
           },
     
           {
-            "taskID": 2,
-            "name": "2nd Banana",
+            "slotID": 2,
+            "day": "THURSDAY",
             "date": "2020-06-18",
-            "description": "lorum ipsum dolor sit amet",
+            "task": "SETUP",
             "previous": []
           }
     
